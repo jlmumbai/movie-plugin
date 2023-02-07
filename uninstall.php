@@ -9,13 +9,6 @@
     die;
  }
 
- //deleting posts one by one using wordpress hook
-//  $movies = get_posts(array('post_type'=>'movies','numberposts' => -1));
-
-//  foreach($movies as $movie){
-//     wp_delete_post($movie->ID,true);
-//  }
-
  //Delete from database via query
  global $wpdb;
 
